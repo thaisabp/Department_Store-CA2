@@ -1,0 +1,47 @@
+First name,Last name,Gender,Email,Salary,Department,Position,Job title,Company
+Kate,Summer,Female,ksummer@TechInnovators.com,20000.00,Electronics,DEPARTMENT_HEAD,QA,GrandStore
+Ken,Winter,Male,kwinter@TechInnovators.com,15000.00,Electronics,CASHIER,backend,GrandStore
+James,Anderson,Male,janderson@TechInnovators.com,80000.00,Clothing,DEPARTMENT_HEAD,Manager,GrandStore
+Sarah,Johnson,Female,sjohnson@TechInnovators.com,3500.50,Human_Resources,FLOOR_SUPERVISOR,Assistant Manager,GrandStore
+John,Smith,Male,jsmith@DataVision.com,48000.00,Logistics,STORE_MANAGER,Senior Manager,GrandStore
+Emily,Brown,Female,ebrown@Infinisoft.com,2700.75,Clothing,CASHIER,Marketing Specialist,GrandStore
+Michael,Williams,Male,mwilliams@DevsUnited.com,5500.30,Electronics,STAFF,Junior Clerk,GrandStore
+Sophia,Taylor,Female,staylor@Netwise.com,4400.20,Electronics,STAFF,Client Relations Coordinator,GrandStore
+David,Wilson,Male,dwilson@TechWorks.com,51000.00,Electronics,DEPARTMENT_HEAD,Full-stack,GrandStore
+Olivia,Martinez,Female,omartinez@SysDevelopers.com,3200.45,Logistics,STAFF,Junior Bookkeeper,GrandStore
+Ethan,Anderson,Male,eanderson@InfoSphere.com,6200.00,Logistics,DEPARTMENT_HEAD,Finance Analyst,GrandStore
+Mia,Clark,Female,mclark@ByteWare.com,4800.35,Logistics,CASHIER,White-collar Worker,GrandStore
+John,Anderson,Male,janderson@TechInnovators.com,60000.00,Clothing,DEPARTMENT_HEAD,Manager,GrandStore
+Sam,Johnson,Female,sjohnson@TechInnovators.com,3500.50,Human_Resources,DEPARTMENT_HEAD,Manager,GrandStore
+John,Brown,Male,jbrown@TechInnovators.com,9000.00,Logistics,DEPARTMENT_HEAD,Manager,GrandStore
+Emma,Brown,Female,ebrown@TechInnovators.com,2200.75,Clothing,STAFF,Marketing Specialist,GrandStore
+Max,Williams,Male,mwilliams@CodeSolutions.com,5200.30,Electronics,STAFF,Clerk,GrandStore
+Sonya,Taylor,Female,staylor@CodeSolutions.com,4200.20,Food_Court,STAFF,Client Relations Coordinator,GrandStore
+Denis,Wilson,Male,dwilson@CodeSolutions.com,61000.00,Electronics,DEPARTMENT_HEAD,Manager,GrandStore
+Olga,Martinez,Female,omartinez@CodeSolutions.com,3300.45,Logistics,STAFF,Junior Bookkeeper,GrandStore
+Ed,Anderson,Male,eanderson@InfoSphere.com,6200.00,Logistics,DEPARTMENT_HEAD,Finance Analyst,GrandStore
+Milla,Clark,Female,mclark@InfoSphere.com,4900.35,Logistics,CASHIER,White-collar Worker,GrandStore
+Sophia,Lopez,Female,slopez@InfoSphere.com,2200.00,Clothing,STAFF,Sales Clerk,GrandStore
+Benjamin,Hill,Male,bhill@InfoSphere.com,27000.00,Food_Court,STORE_MANAGER,Head Manager,GrandStore
+Jessica,Lee,Female,jlee@TechInnovators.com,70000.00,Electronics,STORE_MANAGER,Senior Manager,GrandStore
+Daniel,Walker,Male,dfowler@TechInnovators.com,5300.20,Logistics,STAFF,Office Worker,GrandStore
+Eleanor,Harris,Female,eharris@TechInnovators.com,3100.75,Clothing,STAFF,Marketing Specialist,GrandStore
+Chris,Evans,Male,cevans@CodeSolutions.com,2200.50,Food_Court,STAFF,Client Relations Coordinator,GrandStore
+Alex,Turner,Male,aturner@DataVision.com,4800.40,Electronics,CASHIER,Backend Developer,GrandStore
+Nina,Holmes,Female,nholmes@DevsUnited.com,3300.65,Logistics,STAFF,Finance Analyst,GrandStore
+Victor,Stewart,Male,vstewart@Infinisoft.com,5500.80,Electronics,DEPARTMENT_HEAD,Frontend Developer,GrandStore
+Lucy,Bennett,Female,lbennett@Netwise.com,2700.45,Human_Resources,STAFF,HR Specialist,GrandStore
+Oscar,Reed,Male,oreed@SysDevelopers.com,4400.35,Logistics,STAFF,Bookkeeper,GrandStore
+Lana,Parker,Female,lparker@InfoSphere.com,6200.00,Clothing,DEPARTMENT_HEAD,AI Developer,GrandStore
+Harry,Cooper,Male,hcooper@ByteWare.com,5100.90,Clothing,STAFF,Clerk,GrandStore
+Isla,Fisher,Female,ifisher@TechWorks.com,4100.60,Logistics,CASHIER,White-collar Worker,GrandStore
+Leo,Wright,Male,lwright@DataVision.com,8000.25,Electronics,DEPARTMENT_HEAD,DevOps,GrandStore
+Eva,Mitchell,Female,emitchell@CodeSolutions.com,2500.45,Food_Court,STAFF,Client Relations Specialist,GrandStore
+Ryan,Carter,Male,rcarter@DevsUnited.com,5200.80,Logistics,CASHIER,Desk Jockey,GrandStore
+Holly,Brooks,Female,hbrooks@InfoSphere.com,2800.35,Electronics,STAFF,Mobile Developer,GrandStore
+Daniel,Gray,Male,dgray@TechInnovators.com,3500.60,Clothing,FLOOR_SUPERVISOR,Team Lead,GrandStore
+Layla,Jones,Female,ljones@SysDevelopers.com,1400.50,Logistics,STAFF,Bookkeeper,GrandStore
+Sebastian,Morgan,Male,smorgan@Infinisoft.com,2900.40,Human_Resources,STAFF,HR Analyst,GrandStore
+Elena,Scott,Female,escott@DevsUnited.com,4600.30,Electronics,DEPARTMENT_HEAD,Full-stack Developer,GrandStore
+Finn,Walker,Male,fwalker@ByteWare.com,2200.45,Food_Court,STAFF,Support Clerk,GrandStore
+Amelia,King,Female,aking@TechWorks.com,5200.60,Clothing,CASHIER,Marketing Specialist,GrandStore
