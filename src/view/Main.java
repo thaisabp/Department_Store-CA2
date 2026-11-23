@@ -1,6 +1,7 @@
 package view;
 
 import enums.MenuOption;
+import model.Employee;
 import model.EmployeeManager;
 import java.util.Scanner;
 
@@ -30,7 +31,7 @@ public class Main {
         boolean running = true;
         while (running) {
             displayMenu();
-            String input = scanner.nextLine().trim().toUpperCase();
+            String input = scanner.nextLine().trim();
 
             try {
                 MenuOption option;
@@ -81,8 +82,13 @@ public class Main {
     private boolean handleOption(MenuOption option) {
         switch (option) {
             case SORT:
-                System.out.println("\n[SORT] functionality will be implemented in the next commit!\n");
-                return true; // continues the loop
+                manager.sortEmployees();
+                System.out.println("\nEMPLOYEES SORTED BY NAME");
+                for (Employee emp : manager.getEmployeeList()) {
+                    System.out.println(emp);
+                }
+                System.out.println("--------------------------------\n");
+                return true; //continues the loop
             case SEARCH:
                 System.out.println("\n[SEARCH] functionality will be implemented in the next commit!\n");
                 return true;

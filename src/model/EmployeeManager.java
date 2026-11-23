@@ -59,4 +59,9 @@ public class EmployeeManager {
     public int getEmployeeCount() {
         return employeeList.size();
     }
+
+    //method to sort the employee list by full name in alphabetic order
+    public void sortEmployees() {
+        employeeList.sort((e1, e2) -> e1.getFullName().compareTo(e2.getFullName()));
+    }
 }
