@@ -77,4 +77,9 @@ public class EmployeeManager {
         }
         return results;
     }
+    //method to add a new employee to the list
+    public void addEmployee(String firstName, String lastName, String rawDepartment, String rawPosition, String jobTitle, String company, double salary) {
+        Employee newEmployee = new Employee(firstName, lastName, rawDepartment, rawPosition, jobTitle, company, salary);
+        employeeList.add(newEmployee);
+    }
 }

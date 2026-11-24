@@ -109,8 +109,41 @@ public class Main {
                 }
                 return true; //continues the loop
             case ADD_RECORDS:
-                System.out.println("\n[ADD RECORDS] functionality will be implemented in the next commit!\n");
-                return true;
+                System.out.println("\n--- ADD NEW EMPLOYEE ---");
+
+                System.out.print("First Name: ");
+                String firstName = scanner.nextLine().trim();
+
+                System.out.print("Last Name: ");
+                String lastName = scanner.nextLine().trim();
+
+                System.out.print("Department: ");
+                String department = scanner.nextLine().trim();
+
+                System.out.print("Position: ");
+                String position = scanner.nextLine().trim();
+
+                System.out.print("Job Title: ");
+                String jobTitle = scanner.nextLine().trim();
+
+                System.out.print("Company: ");
+                String company = scanner.nextLine().trim();
+
+                double salary = 0.0;
+                System.out.print("Salary: ");
+                String salaryInput = scanner.nextLine().trim();
+
+                try {
+                    salary = Double.parseDouble(salaryInput);
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid salary format. Defaulting to 0.0.");
+                }
+
+                //add the new employee to the manager
+                manager.addEmployee(firstName, lastName, department, position, jobTitle, company, salary);
+                System.out.println("Employee added successfully to the system!\n");
+
+                return true; //continues the loop
             case CREATE_TREE:
                 System.out.println("\n[CREATE TREE] functionality will be implemented in the next commit!\n");
                 return true;
