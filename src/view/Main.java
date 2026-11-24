@@ -3,6 +3,8 @@ package view;
 import enums.MenuOption;
 import model.Employee;
 import model.EmployeeManager;
+
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -90,8 +92,22 @@ public class Main {
                 System.out.println("--------------------------------\n");
                 return true; //continues the loop
             case SEARCH:
-                System.out.println("\n[SEARCH] functionality will be implemented in the next commit!\n");
-                return true;
+                System.out.print("\nEnter the name to search: ");
+                String searchInput = scanner.nextLine().trim();
+
+                //call the search method
+                List<Employee> foundEmployees = manager.searchEmployees(searchInput);
+
+                if (foundEmployees.isEmpty()) {
+                    System.out.println("No employees found with this name.\n");
+                } else {
+                    System.out.println("\nSEARCH RESULTS");
+                    for (Employee emp : foundEmployees) {
+                        System.out.println(emp); //calls the overridden toString() method for formatted output
+                    }
+                    System.out.println("----------------------\n");
+                }
+                return true; //continues the loop
             case ADD_RECORDS:
                 System.out.println("\n[ADD RECORDS] functionality will be implemented in the next commit!\n");
                 return true;

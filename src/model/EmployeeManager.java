@@ -64,4 +64,17 @@ public class EmployeeManager {
     public void sortEmployees() {
         employeeList.sort((e1, e2) -> e1.getFullName().compareTo(e2.getFullName()));
     }
+
+    // method to search for employees by name
+    public List<Employee> searchEmployees(String searchName) {
+        List<Employee> results = new ArrayList<>();
+        String lowerCaseSearch = searchName.toLowerCase();
+
+        for (Employee emp : employeeList) {
+            if (emp.getFullName().toLowerCase().contains(lowerCaseSearch)) {
+                results.add(emp);
+            }
+        }
+        return results;
+    }
 }
