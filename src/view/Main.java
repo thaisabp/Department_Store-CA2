@@ -6,6 +6,7 @@ import model.EmployeeManager;
 
 import java.util.List;
 import java.util.Scanner;
+import model.BinarySearchTree;
 
 public class Main {
     private EmployeeManager manager;
@@ -145,15 +146,24 @@ public class Main {
 
                 return true; //continues the loop
             case CREATE_TREE:
-                System.out.println("\n[CREATE TREE] functionality will be implemented in the next commit!\n");
-                return true;
+                System.out.println("\n CREATING BINARY SEARCH TREE");
+                BinarySearchTree bst = new BinarySearchTree();
+
+                //insert all employees from the list into the tree
+                for (Employee emp : manager.getEmployeeList()) {
+                    bst.insert(emp);
+                }
+
+                System.out.println("Tree created successfully! Displaying in-order traversal (sorted):");
+                bst.displayInOrder();
+                System.out.println("----------------------------------------\n");
+                return true; //continues the loop
             case EXIT:
                 return false; //breaks the loop and ends the program
             default:
                 return true;
         }
     }
-
     //entry point of the program
     public static void main(String[] args) {
         Main app = new Main();
